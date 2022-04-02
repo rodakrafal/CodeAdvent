@@ -20,12 +20,14 @@
 # jedynek to do tablicy gamma dodane zostanie 1 a do tablicy epsilon 0. Dalej używam 
 # metody reduce z functools żeby zmienić jej wartość na decymalną i wyświetlam wynik.
 
+
 # Your puzzle answer was 2954600.
 
 from functools import reduce
 
 f = open("data.txt","r")
 points=[]
+
 for line in f:
     points.append((line.rstrip("\n")))
 one = zero = i = 0
